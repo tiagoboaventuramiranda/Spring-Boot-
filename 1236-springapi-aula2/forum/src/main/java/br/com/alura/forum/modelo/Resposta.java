@@ -100,4 +100,7 @@ public class Resposta {
 		this.solucao = solucao;
 	}
 
+	public String getNome() {
+		return autor.getNome();
+	}
 }
